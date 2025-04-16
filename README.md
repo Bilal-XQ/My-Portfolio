@@ -23,7 +23,7 @@ Un portfolio moderne et interactif développé avec HTML5, TailwindCSS et JavaSc
 
 1. Clonez le repository
 ```bash
-git clone https://github.com/votre-username/portfolio.git
+git clone https://github.com/Bilal-XQ/My-Portfolio.git
 ```
 
 2. Installez les dépendances
@@ -66,6 +66,6 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 📞 Contact
 
-Bilal EL AZZAM - [@votre_twitter](https://twitter.com/votre_twitter) - email@example.com
+Bilal EL AZZAM -  - bilalelazzam.dev@gmail.com
 
-Lien du projet: [https://github.com/votre-username/portfolio](https://github.com/votre-username/portfolio) 
+Lien du projet: https://github.com/Bilal-XQ/My-Portfolio.git
