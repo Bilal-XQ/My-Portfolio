@@ -50,3 +50,16 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
+
+# Fichiers d'éditeur
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers de cache
+.cache/
+.temp/
