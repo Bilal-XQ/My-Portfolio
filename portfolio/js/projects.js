@@ -9,7 +9,7 @@ const projects = [
     title: "Portfolio Web Personnel",
     type: "original",
     description: "Mon site portfolio personnel, développé de A à Z pour présenter mon parcours et mes compétences.",
-    images: ["placeholder.png"],
+    images: ["placeholder1.png"],
     tags: ["HTML", "CSS", "JavaScript"],
     github: "#",
     live: "#",
@@ -21,7 +21,7 @@ const projects = [
     title: "Projet Original - Coming Soon",
     type: "original",
     description: "Un nouveau projet original sera bientôt ajouté ici.",
-    images: ["placeholder.png"],
+    images: ["placeholder2git init.png"],
     tags: ["À venir"],
     github: "#",
     live: "#",
@@ -34,7 +34,7 @@ const projects = [
     title: "AI Art Generator (Coming Soon)",
     type: "ai",
     description: "Application web utilisant des modèles d'IA pour générer des images artistiques.",
-    images: ["placeholder.png"],
+    images: ["placeholder2.png"],
     tags: ["Python", "API", "AI", "Stable Diffusion"],
     github: "#",
     live: "#",
@@ -46,7 +46,7 @@ const projects = [
     title: "Projet IA - Coming Soon",
     type: "ai",
     description: "Un nouveau projet assisté par IA sera bientôt ajouté ici.",
-    images: ["placeholder.png"],
+    images: ["placeholder3.png"],
     tags: ["À venir"],
     github: "#",
     live: "#",
@@ -249,14 +249,7 @@ function showProjectInstructions() {
   const instructions = document.createElement('div');
   instructions.className = 'bg-blue-900 bg-opacity-60 text-blue-100 rounded-lg p-6 mb-8 text-sm';
   instructions.innerHTML = `
-    <strong>Instructions :</strong> <br>
-    Pour ajouter un projet réel, modifiez le fichier <code>js/projects.js</code> :<br>
-    <ul class="list-disc ml-6 mt-2">
-      <li>Ajoutez un objet dans le tableau <code>projects</code> avec vos informations (titre, description, images, tags, liens...)</li>
-      <li>Utilisez <code>type: 'original'</code> pour un projet 100% personnel, <code>type: 'ai'</code> pour un projet assisté par IA</li>
-      <li>Ajoutez vos images dans <code>assets/images/projects/</code> et référencez-les dans <code>images: []</code></li>
-      <li>Les boutons GitHub et Site seront actifs si vous mettez un vrai lien</li>
-    </ul>
+   
   `;
   container.parentNode.insertBefore(instructions, container);
 }
